@@ -1,0 +1,49 @@
+   41  cat wilders.txt
+   42  grep "php;france" < wilders.txt
+   43  grep wilders.txt "php;france"
+   44  grep "php;france" wilders.txt
+   45  grep "php;france" < wilders.txt | wc -l
+   46  grep wilders.txt "php" | wc -l
+   47  grep php wilders.txt | wc -1
+   48  grep php wilders.txt | wc -l
+   49  grep "france;2019;PHP" < wilders.csv | wc -l
+   50  grep php wilders.txt
+   51  cat wilders.txt
+   52  grep PHP wilders.txt
+   53  grep "France;2019;PHP" wilders.txt
+   54  grep -i "France;2019;PHP" wilders.txt
+   55  grep -i "France,2019,PHP" wilders.txt
+   56  grep -i "France,2019,PHP" wilders.txt | w-l
+   57   grep -i "France,2019,PHP" wilders.txt | w -l
+   58   grep -i "France,2019,PHP" wilders.txt | wc-l
+   59   grep -i "France,2019,PHP" wilders.txt | wc -l
+   60   grep -i "France,2019,PHP" wilders.txt | wc -1 > php_france_2019.csv
+   61   grep -i "France,2019,PHP" wilders.txt | wc -l > php_france_2019.csv
+   62  grep -i "toulouse" "javascript" wilders.txt
+   63  grep -i "toulouse" ; "javascript" wilders.txt
+   64  grep -i "toulouse","javascript" wilders.txt
+   65  grep -i "toulouse"\"javascript" wilders.txt
+grep -i "toulouse"\"javascript" wilders.txt
+   66  grep -i "toulouse"\"javascript" wilders.txt
+grep -i "toulouse"|"javascript" wilders.txt
+
+   67  grep -i "toulouse|javascript" wilders.txt
+   68  grep -i "toulouse\|javascript" wilders.txt
+   69  grep -i "toulouse/javascript" wilders.txt
+   70  grep -i "toulouse" logs | grep "javascript"
+   71  grep -i "toulouse" logs | grep "javascript" wilders.txt
+   72  grep -e "toulouse"- -e "javascript" wilders.txt
+   73  grep -i -e "toulouse"- -e "javascript" wilders.txt
+   74  grep -i "javacript" wilders.txt > wilders_javascript.csv
+   75  grep -i "javascript" wilders.txt > wilders_javascript.csv
+   76  grep -i "toulouse" wilders_javascript.csv > toulouse.csv
+   77  cat toulouse.csv
+   78  grep -i "biarritz" wilders_javascript.csv > biarritz.csv
+   79  cat biarritz.csv
+   80  toulouse.csv biarritz.csv > javacript_biarritz_toulouse.csv
+   81  CAT toulouse.csv biarritz.csv > javacript_biarritz_toulouse.csv
+   82  CAT javascript_biarritz_toulouse.csv
+   83  CAT javacript_biarritz_toulouse.csv
+   84  CAT javacript_biarritz_toulouse.csv
+   85  history tail
+   86  history
